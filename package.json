@@ -1,0 +1,23 @@
+{
+  "name": "gemini-cli-project",
+  "version": "1.0.0",
+  "description": "A simple CLI project powered by Google's Gemini API",
+  "type": "module",
+  "bin": {
+    "gemini-cli": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "gemini",
+    "ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.14.0",
+    "commander": "^13.1.0"
+  }
+}
